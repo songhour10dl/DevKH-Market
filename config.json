@@ -1,0 +1,190 @@
+{
+  "job_sites": [
+    {
+      "name": "Khmer24",
+      "base_url": "https://www.khmer24.com",
+      "search_url_template": "https://www.khmer24.com/jobs/search?q={query}",
+      "is_active": false
+    },
+    {
+      "name": "BongThom",
+      "base_url": "https://www.bongthom.com",
+      "search_url_template": "https://www.bongthom.com/job/search?keyword={query}",
+      "is_active": false
+    },
+    {
+      "name": "Jobtify",
+      "base_url": "https://jobtify.com",
+      "search_url_template": "https://jobtify.com/jobs?search={query}",
+      "is_active": false
+    },
+    {
+      "name": "Pelprek",
+      "base_url": "https://pelprek.com",
+      "search_url_template": "https://pelprek.com/jobs/search?q={query}",
+      "is_active": false
+    },
+    {
+      "name": "CamHR",
+      "base_url": "https://camhr.com",
+      "search_url_template": "https://camhr.com/search-jobs?keywords={query}",
+      "is_active": false
+    },
+    {
+      "name": "jobnet",
+      "base_url": "https://www.jobnet.com.kh",
+      "search_url_template": "https://www.jobnet.com.kh/jobs?kw={query}",
+      "is_active": false
+    },
+    {
+      "name": "cambojob",
+      "base_url": "https://www.cambojob.com",
+      "search_url_template": "https://www.cambojob.com/Jobs/jobs_list/key/{query}",
+      "is_active": false
+    },
+    {
+      "name": "topjobcambodia",
+      "base_url": "https://www.topjobcambodia.com",
+      "search_url_template": "https://www.topjobcambodia.com/index.php?s={query}",
+      "is_active": true
+    }
+  ],
+  "search_queries": [
+    "Software Engineer",
+    "Web Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "Mobile Developer",
+    "iOS Developer",
+    "Android Developer",
+    "IT Support",
+    "DevOps Engineer",
+    "Software Developer",
+    "Software Engineer, CLM Hub",
+    "Senior Software Engineer, CLM Hub",
+    "Junior Software Developer",
+    "Software Programmer",
+    "Product Executive",
+    "Design Supervisor",
+    "Frontend Software Developer",
+    "Software Developer - Remote",
+    "Software QA Tester"
+  ],
+  "skill_categories": [
+    {
+      "name": "Backend",
+      "skills": [
+        "Java",
+        "Python",
+        "Node.js",
+        "C#",
+        ".NET",
+        "PHP",
+        "Ruby",
+        "Go",
+        "Rust"
+      ],
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Frontend",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Vue.js",
+        "Angular",
+        "TypeScript",
+        "Sass",
+        "Bootstrap",
+        "Web Developer",
+        "UX/UI"
+      ],
+      "color": "#3498db"
+    },
+    {
+      "name": "Mobile",
+      "skills": [
+        "Flutter",
+        "Kotlin",
+        "Swift",
+        "React Native",
+        "Xamarin",
+        "Ionic",
+        "Android",
+        "iOS"
+      ],
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Database",
+      "skills": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "SQLite",
+        "Oracle",
+        "SQL Server"
+      ],
+      "color": "#f39c12"
+    },
+    {
+      "name": "DevOps",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Jenkins",
+        "Git",
+        "Linux",
+        "Nginx"
+      ],
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Other",
+      "skills": [
+        "C++",
+        "Agile",
+        "Scrum",
+        "REST API",
+        "GraphQL",
+        "Microservices",
+        "TDD",
+        "CI/CD"
+      ],
+      "color": "#34495e"
+    },
+    {
+      "name": "Web Developer",
+      "skills": [
+        "Bootstrap",
+        "TypeScript",
+        "Angular",
+        "Vue.js",
+        "React",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Node.js",
+        "Svelte",
+        "Responsive Web Design (using Flexbox, Grid, Media Queries)",
+        "Testing & Debugging",
+        "Full Stack Tools & DevOps",
+        "DevOps",
+        "UX/UI",
+        "Degree in Computer Science/Information Technology/Related field"
+      ],
+      "color": "#3498db"
+    }
+  ],
+  "scraping_settings": {
+    "max_pages_per_site": 5,
+    "delay_between_requests": 1.0,
+    "use_selenium": false
+  }
+}
